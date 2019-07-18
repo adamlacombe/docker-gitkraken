@@ -9,5 +9,5 @@ docker run -it --rm --name gitkraken \
     -v ~/.ssh:/developer/.ssh \
     --privileged \
     --ipc host \
-    docker-gitkraken
+    adamlacombe/docker-gitkraken
 ```
